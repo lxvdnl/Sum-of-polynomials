@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(GrehamAlgorithm)
+project(SumOfPolynomials)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -21,4 +21,4 @@ include_directories(
     ${SOURCE_DIR}/../headers
 )
 
-add_executable(GrehamAlgorithm ${SOURCES} ${HEADERS})
+add_executable(SumOfPolynomials ${SOURCES} ${HEADERS})
